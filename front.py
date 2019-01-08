@@ -134,9 +134,7 @@ class Ui_mainWindow(object):
         self.dlabel.setText(_translate("mainWindow", "                                               Image here"))
         self.Decode.setText(_translate("mainWindow", "Decode"))
         self.dbrowse.setText(_translate("mainWindow", "Browse"))
-        
-# Text Edit for message		
-self.dtextEdit.setPlaceholderText(_translate("mainWindow", "enter message here"))
+        self.dtextEdit.setPlaceholderText(_translate("mainWindow", "enter message here"))
         self.label_3.setText(_translate("mainWindow", "Location :"))
         self.label_4.setText(_translate("mainWindow", "Key : "))
         self.etabWidget.setTabText(self.etabWidget.indexOf(self.tab_2), _translate("mainWindow", "Decode"))
